@@ -36,9 +36,12 @@
         </style>
     </head>
     <body>
-        <div class="container">
+        <div class="container">			
             <div class="content">
                 <div class="title">Laravel 5</div>
+				<div class="quote">{{ Inspiring::quote() }}</div>
+				<div class="smartphone"><a href="/smartphone">Smartphone</a></div> 
+				<div class="shorten"><a href="/shorten">Bit.ly</a></div>  
             </div>
         </div>
     </body>
