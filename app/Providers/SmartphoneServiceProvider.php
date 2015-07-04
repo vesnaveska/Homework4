@@ -2,14 +2,12 @@
 
 namespace app\Providers;
 
-use app\Lib\Smartphone;
+use app\Lib\Smartphone\Smartphone;
 use Illuminate\Support\ServiceProvider;
 
 class SmartphoneServiceProvider extends ServiceProvider {
     public function register()
     {       
-      
-     
     	$this->app->bind('Smartphone', function($app) {
             return new Smartphone(
                 'Sony Xperia',
